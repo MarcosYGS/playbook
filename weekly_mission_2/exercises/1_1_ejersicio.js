@@ -1,6 +1,6 @@
 
 
-const repo = {
+const issue = {
     
     title: "02 Live 2 Semana 1 [Miércoles 6 de Abril]",
     repositoryNameAssociated: "MissionNodeJS",
@@ -19,5 +19,5 @@ const repo = {
     }
    }
    
-   console.log(repo.getTitleAndAuthor())
-   console.log(repo.getGeneralInfo())
+   console.log(issue.getTitleAndAuthor())
+   console.log(issue.getGeneralInfo())
