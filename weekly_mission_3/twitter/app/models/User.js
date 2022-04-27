@@ -1,7 +1,8 @@
 class User {
-    constructor(id, name, bio, dataCreated, lastUpdated)
+    constructor(id, userName, name, bio, dataCreated, lastUpdated)
         {
             this.id = id; 
+            this.userName = userName;
             this.name = name;
             this.bio = bio;
             this.dataCreated = new Date();
